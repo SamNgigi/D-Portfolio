@@ -7,4 +7,5 @@ We define all our views functions here.
 
 
 def index(request):
-    return render(request, 'index.html')
+    title = "hai"
+    return render(request, 'index.html', {"title": title})
