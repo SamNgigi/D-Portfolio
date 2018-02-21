@@ -29,8 +29,11 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+"""
+We have to define our app here so that its functionalities are accessible
+"""
 INSTALLED_APPS = [
+    'index.apps.IndexConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
